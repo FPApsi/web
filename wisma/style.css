@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+table{
+	left: 0px;
+	padding: 0px;
+	border-radius: 15px;
+}
+
+#page { width: 600px; margin: 0px auto; }
+
+#thumbs { padding-top: 10px; overflow: hidden; }
+#thumbs img, #largeImage { border: 1px solid gray; padding: 4px; background-color: white; cursor: pointer; }
+#thumbs img { float: left; margin-right: 10px; opacity: 0.6; }
+#thumbs img:hover { opacity: 1.0; }
+#description { background: black; color: white; position: absolute; bottom: 0; padding: 10px 20px; width: 542px; margin: 5px; }
+#panel { position: relative; }

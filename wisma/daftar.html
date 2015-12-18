@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link type="text/css" rel="stylesheet" href="imk.css">
+    <script src="jquery.min.js"></script>
+    <script src="log.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Home</title>
+    
+</head>
+
+<body style="background-color:#F2F2F2">
+<div id="heading"><h2>Wisma Tamu ITS</h2>
+</div>
+<div class="nav"><ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="cari_kamar.html">Cari Kamar</a></li>
+<li><a href="#">Pemesanan</a></li>
+<li><a href="daftar.html">Daftar</a></li>
+    <li id="login">
+      <a id="login-trigger" href="#">
+        Masuk <span>▼</span>
+      </a>
+      <div id="login-content">
+        <form action="#" method="POST">
+          
+            <input id="username" class="form" type="text" name="username" placeholder="username" required>   
+            <input id="password" class="form" type="password" name="Password" placeholder="Password" required>
+			<div>
+			<select  name="log" id="log">
+				<option >Select Login</option>
+				<option value="3">Member</option>
+				<option value="2">Employe</option>
+				<option value="1">Admin</option>
+			</select></div>
+                 
+            <input type="submit" id="submit" value="Log in">
+            
+          
+        </form>
+      </div>                     
+    </li>
+</ul>
+</div>
+<div id="form_regis">
+    <div id="head_form">Register</div>
+    <form name="forms" method="POST" action="#" >
+		<input class="input" name="nama" type="text" required placeholder="Nama">
+        <input class="input" name="no_id" type="text" required placeholder="No KTP/SIM">
+		<input class="input" name="alamat" type="text" required placeholder="Alamat">
+		<input class="input" name="hp" type="text" required placeholder="No.HP">
+        <input class="input" name="email" type="email" required placeholder="Email">
+       
+        
+		
+        <input class="input" name="passwd" type="password" required placeholder="Password">
+        <input class="input" name="passwd2" type="password" required placeholder="Retype Password">
+        <div id="register">
+            <input id="submit" class="input"  name="regis" type="submit" value="Register"></div>
+    
+    </form>
+</div>
+        <div class="footer"><table><thead>
+        <h4 id="contact">Contact Us:</h4>
+        </thead><tbody><tr>
+        <td><h5 class="contact">088-374-647-648</h5></td>
+        <td><a class="facebook" href="https://facebook.com"><img src="images/facebook.jpg" /></a></td><td><a class="twitter" href="https://facebook.com">  Facebook</a></td></tr>
+        <tr><td><h5 class="contact">088-564-698-769</h5></td>
+        <td><a class="facebook" href="https://twitter.com"><img src="images/twitter.jpg" /></a></td><td><a class="twitter" href="https://twitter.com">  Twitter</a></td></tr>
+        <tr><td><a href="email@hotel_imk.com"><h5 class="contact">email@hotel_imk.com</h5></td></tr>
+        
+        </tbody>
+        </div>
+        
+
+</body>
+</html>
